@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemcachedDemo", "MemcachedDemo\MemcachedDemo.csproj", "{DF372811-A3F7-4527-9B40-4B8379109047}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56BB17D8-3FB5-46E4-A821-561BDE4BAF11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDemo", "RedisDemo\RedisDemo.csproj", "{B3F3C30A-83EE-41EE-ACBD-09E4B3FDE0A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDemo", "src\RedisDemo\RedisDemo.csproj", "{7C622782-BA66-498A-AF40-0BA1090F31B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemcachedDemo", "src\MemcachedDemo\MemcachedDemo.csproj", "{2D83A749-0C5D-48F2-B0CC-2C02F011434A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF372811-A3F7-4527-9B40-4B8379109047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF372811-A3F7-4527-9B40-4B8379109047}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF372811-A3F7-4527-9B40-4B8379109047}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF372811-A3F7-4527-9B40-4B8379109047}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3F3C30A-83EE-41EE-ACBD-09E4B3FDE0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3F3C30A-83EE-41EE-ACBD-09E4B3FDE0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3F3C30A-83EE-41EE-ACBD-09E4B3FDE0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3F3C30A-83EE-41EE-ACBD-09E4B3FDE0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C622782-BA66-498A-AF40-0BA1090F31B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C622782-BA66-498A-AF40-0BA1090F31B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C622782-BA66-498A-AF40-0BA1090F31B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C622782-BA66-498A-AF40-0BA1090F31B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D83A749-0C5D-48F2-B0CC-2C02F011434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D83A749-0C5D-48F2-B0CC-2C02F011434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D83A749-0C5D-48F2-B0CC-2C02F011434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D83A749-0C5D-48F2-B0CC-2C02F011434A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

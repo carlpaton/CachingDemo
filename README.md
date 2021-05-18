@@ -4,12 +4,12 @@ Having a play with key/value caching using Redis, Memcached and Dynamodb. I was 
 
 ## Redis
 
-- [Redis](./RedisDemo)
+- [Redis](./src/RedisDemo)
 
 ## Memcached
 
-- [Memcached](./MemcachedDemo)
+- [Memcached](./src/MemcachedDemo)
 
 ## Dynamodb
 
-- [Dynamodb](./DynamodbDemo)
+- [Dynamodb](./src/DynamodbDemo)
